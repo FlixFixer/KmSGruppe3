@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TasksListComponent } from './tasks-list/tasks-list.component';
 import { TaskCardComponent } from './task-card/task-card.component';
+import { EditTaskComponent } from './edit-task/edit-task.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TasksListComponent,
-    TaskCardComponent
+    TaskCardComponent,
+    EditTaskComponent
   ],
   imports: [
     BrowserModule,
